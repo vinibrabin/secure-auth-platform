@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 
-function roleMiddleware(role: "user" | "admin") {
+function authorizeRole(role: "user" | "admin") {
   return (req: Request, res: Response, next: NextFunction) => {
     const authRequest = req as any;
     const authUser = authRequest.user;
@@ -19,4 +19,4 @@ function roleMiddleware(role: "user" | "admin") {
   };
 }
 
-export default roleMiddleware;
+export default authorizeRole;
