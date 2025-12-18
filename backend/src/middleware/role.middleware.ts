@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from "express";
+import { Role } from "../constant/role.enum";
 
-function authorizeRole(role: "user" | "admin") {
+function authorizeRole(role: Role) {
   return (req: Request, res: Response, next: NextFunction) => {
     const authRequest = req as any;
     const authUser = authRequest.user;

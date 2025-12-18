@@ -9,12 +9,14 @@ import {
   verifyEmailToken,
   verifyRefreshToken,
 } from "../../lib/token";
-import { sendEmail } from "../../lib/email";
+// import { sendEmail } from "../../lib/email";
 import {
   emailVerificationTemplate,
   passwordResetTemplate,
 } from "../../lib/template";
 import crypto from "crypto";
+import { Role } from "../../constant/role.enum";
+import { sendEmail } from "../../lib/sendEmail";
 
 const appUrl = process.env.APP_URL;
 
@@ -47,7 +49,7 @@ export const registerHandler = async (req: Request, res: Response) => {
       email,
       password: hashedPassword,
       username,
-      role: "user",
+      role: Role.USER,
       isEmailVerified: false,
       isTwoFactorEnabled: false,
     });
@@ -76,9 +78,7 @@ export const registerHandler = async (req: Request, res: Response) => {
       },
     });
   } catch (error) {
-    return res.status(500).json({
-      message: "Internal Server Error",
-    });
+    return res.status(500).json({ message: error });
     console.log(error);
   }
 };
@@ -168,7 +168,6 @@ export const loginHandler = async (req: Request, res: Response) => {
     return res.status(200).json({
       message: "User login successfully",
       accessToken,
-      refreshToken,
       user: {
         id: user.id,
         email: user.email,
@@ -221,7 +220,6 @@ export const refreshTokenHandler = async (req: Request, res: Response) => {
 
     return res.status(200).json({
       message: "Token refreshed successfully",
-      accessToken: newAccessToken,
       refreshToken: newRefreshToken,
       user: {
         id: user.id,
