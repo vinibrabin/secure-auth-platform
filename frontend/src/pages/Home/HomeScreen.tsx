@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { renderCanvas } from "@/components/ui/canvas";
 import { DIcons } from "dicons";
 
 import { Button } from "@/components/ui/button";
@@ -13,10 +11,6 @@ export function HomeScreen() {
     navigate("/login");
     toast.success("Logout successfully!");
   };
-
-  useEffect(() => {
-    renderCanvas();
-  }, []);
 
   return (
     <section id="home">
@@ -95,10 +89,6 @@ export function HomeScreen() {
           </div>
         </div>
       </div>
-      <canvas
-        className="bg-skin-base pointer-events-none absolute inset-0 mx-auto"
-        id="canvas"
-      ></canvas>
     </section>
   );
 }
